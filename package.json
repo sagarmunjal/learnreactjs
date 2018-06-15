@@ -2,7 +2,7 @@
   "name": "learnreact",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://sagarmunjal.github.io/learnreact",
+  "homepage": "http://sagarmunjal.github.io/learnreactjs",
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
