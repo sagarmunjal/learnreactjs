@@ -1,7 +1,9 @@
 {
-  "main.css": "static/css/main.c17080f1.css",
-  "main.css.map": "static/css/main.c17080f1.css.map",
-  "main.js": "static/js/main.bf2dbf5c.js",
-  "main.js.map": "static/js/main.bf2dbf5c.js.map",
-  "static/media/logo.svg": "static/media/logo.5d5d9eef.svg"
+  "main.css": "static/css/main.222675a9.css",
+  "main.css.map": "static/css/main.222675a9.css.map",
+  "main.js": "static/js/main.960f024e.js",
+  "main.js.map": "static/js/main.960f024e.js.map",
+  "static/media/logo.svg": "static/media/logo.5d5d9eef.svg",
+  "static/media/montserrat-black-webfont.woff": "static/media/montserrat-black-webfont.c06a7468.woff",
+  "static/media/montserrat-black-webfont.woff2": "static/media/montserrat-black-webfont.5840bc9d.woff2"
 }
