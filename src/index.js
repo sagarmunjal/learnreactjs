@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import MetaTags from 'react-meta-tags'
 import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';

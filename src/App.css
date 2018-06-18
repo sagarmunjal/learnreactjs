@@ -1,6 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+
+.primary-color {
+  color: #00DCFF;
+}
+
+.secondary-color {
+  color: #fff07b;
+}
+
+/*
 .App {
   text-align: center;
 }
+*/
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;

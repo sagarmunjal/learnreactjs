@@ -3,3 +3,11 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.primary-color {
+  color: #00DCFF;
+}
+
+.secondary-color {
+  color: #fff07b;
+}

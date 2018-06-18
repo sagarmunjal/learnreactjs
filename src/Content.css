@@ -1,0 +1,96 @@
+.Content-defaults {
+    padding : 5em;
+    background-color: beige;
+}
+
+.Content-defaults > p , h3 {
+    padding : 10px;
+}
+
+.Content-h3 {
+    font-family: 'Shrikhand', cursive;
+    letter-spacing: 1px;
+  }
+
+.Content-p {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.35em;
+}
+
+.Content-intro {
+    text-align:center;
+    line-height: 1.5em;
+    margin-bottom : 2em;
+}
+  
+.Content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    'content-box-1 content-box-2 content-box-3'
+    'content-box-4 content-box-5 content-box-6'
+    'content-box-7 content-box-8 content-box-9';
+    grid-gap: 4em;
+}
+
+.Content-box-1 {
+    border:1px solid black ;
+    grid-area: content-box-1;
+    padding :2em;
+}
+
+.Content-box-2 {
+    border:1px solid black ;
+    grid-area: content-box-2;
+    padding :2em;
+}
+
+.Content-box-3 {
+    border:1px solid black ;
+    grid-area: content-box-3;
+        padding :2em;
+
+}
+
+.Content-box-4 {
+    border:1px solid black ;
+    grid-area: content-box-4;
+        padding :2em;
+
+}
+
+.Content-box-5 {
+    border:1px solid black ;
+    grid-area: content-box-5;
+        padding :2em;
+
+}
+
+.Content-box-6 {
+    border:1px solid black ;
+    grid-area: content-box-6;
+        padding :2em;
+
+}
+
+.Content-box-7 {
+    border:1px solid black ;
+    grid-area: content-box-7;
+        padding :2em;
+
+}
+
+.Content-box-8 {
+    border:1px solid black ;
+    grid-area: content-box-8;
+        padding :2em;
+
+}
+
+.Content-box-9 {
+    border:1px solid black ;
+    grid-area: content-box-9;
+        padding :2em;
+
+}
+

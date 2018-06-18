@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+
+@font-face {
+    font-family: 'montserratblack';
+    src: url('./webfontkit-20180617-042137/montserrat-black-webfont.woff2') format('woff2'),
+         url('./webfontkit-20180617-042137/montserrat-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* color used */
+
+.primary-color {
+    color: #00DCFF;
+  }
+  
+.secondary-color {
+    color: #fff07b;
+}
+
+/* defaluts */
+
+.Hero {
+    text-align: center;
+}
+
+/* background */
+
+.Hero-bg{
+    background-color: #00DCFF;
+    height:100vh;
+}
+
+/* styling h1,h3,para */
+
+.Hero-h1 {
+    color: #fff07b;
+    font-size: 3.5em;
+    margin: 0 auto 20px auto;
+    width: auto;
+    font-weight: 700;
+    font-family: 'montserratblack', 'Roboto', sans-serif;
+    text-shadow: 2px 2px #ff0000;
+}
+
+.Hero-p {
+    font-family: 'Roboto', sans-serif;
+    padding : 0.10em;
+    letter-spacing: 0.15em;
+}
+
+.Hero-h3 {
+    font-family: 'Shrikhand', cursive;
+    padding : 1.40em;
+    
+}
+
+/* additional font makeup */
+
+.Hero-emphasis {
+    color: #fff07b;
+}
+
+.Hero-text-separated {
+    letter-spacing: 0.1em;
+}
+
+.Hero-muted {
+    color : #578389;
+}
+
+.Hero-white {
+    color:white;
+}
+
+/*centering*/
+
+.Hero-center {
+    height:100vh;
+    position: relative; 
+}
+
+.Hero-center > .Hero-content {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* mobile */
+
+@media screen and (max-width: 400px) {
+    .Hero-bg{
+        max-width: 300%;
+        background-color: cornflowerblue;
+        border : 4px solid black ;
+    }
+}
